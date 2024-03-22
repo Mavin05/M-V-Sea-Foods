@@ -1,10 +1,3 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/   
 /*======================================
 [ CSS Table of contents ]
 * Global CSS
@@ -352,6 +345,7 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
+/*
 .header .nav li.active a:before{
 	opacity:1;
 	visibility:visible;
@@ -359,7 +353,7 @@ body{
 }
 .header .nav li.active a{
 	color:#1A76D1;
-}
+}*/
 .header .nav li:hover a:before{
 	opacity:1;
 	width: 100%;
@@ -1062,6 +1056,23 @@ body{
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
+.Founder {
+	position: relative;
+	width: 500px;
+	left: 650px;
+	bottom: 250px;
+}
+.mav{
+	position: relative;
+	left: 190px;
+	top: 30px;
+	color: #ffffff;
+	background-color: #6e6e6e;
+	width: 125px;
+	padding: 6px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
 /*=======================
 	End Why choose CSS
 =========================*/
@@ -1753,6 +1764,10 @@ body{
 }
 .team .section-title p{
 	color:#fff;
+}
+.section-title {
+	position: relative;
+	top: 10px;
 }
 .team .single-team {
 	background: #fff;
